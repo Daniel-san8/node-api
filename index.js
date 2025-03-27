@@ -1,4 +1,3 @@
-const { printName, printAge } = require("./printName");
+const os = require("os");
 
-printName();
-printAge();
+console.log(os.type());
