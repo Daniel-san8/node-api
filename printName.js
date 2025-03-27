@@ -1,7 +1,5 @@
-function printName () {
+exports.printName = function () {
     console.log("opa")
 }
 
-const printAge = () => console.log(18)
-
-module.exports = { printName, printAge }
+exports.printAge = () => console.log(18)
