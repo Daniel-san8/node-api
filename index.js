@@ -1,1 +1,4 @@
-console.log("hello world");
+const { printName, printAge } = require("./printName");
+
+printName();
+printAge();
